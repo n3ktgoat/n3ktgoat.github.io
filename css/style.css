@@ -150,3 +150,20 @@ float: left;
     width: 100%;
 
 }
+#forma{
+    height: 500px;
+    width: 400px;
+    margin: 250px 45%;
+    border-radius: 0;
+    border: #333;
+   
+}
+
+form{
+border-radius: 0;
+border: #333;
+}
+textarea{
+    width: 100px;
+    height: 125px;
+}
