@@ -14,11 +14,13 @@ header a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.3s;
   }
   header a:hover{
     background-color: #ddd;
   color: black;
-  }
+  
+}
 header a.active{
     background-color: green;
   color: white;
@@ -46,12 +48,13 @@ float: left;
 }
 .ikonica{
     color: white;
-    margin: auto;
+    
     height: 8px;
-    gap: 2x;
-    margin: 5px 0;
+    
+    margin: 5px 5px;
     padding: 11px 0;
 float: left;
+
 }
 /*.ikonica p{
     float: left;
@@ -108,7 +111,7 @@ float: left;
 }
 
 footer{
-    height: 300px;
+    height: 150px;
     width: 100%;
     background-color: #333;
 }
@@ -155,7 +158,7 @@ float: left;
 #forma{
     height: 500px;
     width: 400px;
-    margin: 250px 40%;
+    margin: 250px 0 50px 40%;
     border-radius: 0;
     border: #333;
    border-radius: 1;
@@ -165,6 +168,7 @@ float: left;
 form{
 border-radius: 0;
 border: #333;
+
 
 }
 textarea{
@@ -189,4 +193,59 @@ textarea{
     width: 20%;   
     justify-content: center;
    
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+
+
+  }
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer ul li {
+    margin: 5px 0;
+  }
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  #about{
+    margin: 200px 0 200px 0;
+display: flex;
+justify-content: space-around;
+
+}
+#galerija{
+    margin-top: -50px;
+  
+}
+#galerija img{
+    height: 449px;
+    width: 33.333333333333333333333%;
 }
