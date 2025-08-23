@@ -70,15 +70,13 @@ float: left;
 
 
 #gume{
-    display: grid;
-    width: 85%;
-    
+    max-width: 80%;
     background-color: #FFF;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 80px;
-   margin: 10px auto;
-   
+    margin: 10px auto;
     /* margin: 200px auto; */
+    display: grid;
 }
 #naslov{
     background-color: grey;
@@ -123,13 +121,11 @@ footer{
 }
 
 .guma{
-    background-color: #333;
-    height: 350px;
-width: 455px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
-border-radius: 8px;
-color: #FFF;
-padding: 20px;
+ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #FFF;
+    padding: 20px;
+  background-color: #333;
 }
 .guma a{
     text-decoration: none;
@@ -175,7 +171,7 @@ width: 100%;
 }
 form div{
     width: 100%;
-    margin: 10px 0px;
+    margin: 5px 0px;
 
 }
 textarea{
@@ -184,9 +180,11 @@ textarea{
     resize: none;
     margin: 0;
     padding: 0;
+ 
+  
 }
 input[type="submit"]{
-    margin: 20px 42.5%;
+    margin: 10px;
     height: 10%;
     width: 15%;
 }
@@ -311,4 +309,12 @@ form input[type="textarea"]{
 /* form h1{
     padding: 0 38%;
 } */
- 
+#galerija {
+    max-width: 80%;
+    background-color: #FFF;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    margin: 10px auto;
+    /* margin: 200px auto; */
+    display: grid;
+}
