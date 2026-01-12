@@ -72,11 +72,12 @@
 
 </select>
 
-<div><label for="imeprezime">Name:</label><br><input type="text" name="imeprezime"></div>
-<div><label for="email">Email:</label><br><input type="email" name="email"></div>
+<div><label for="name">Name:</label><br><input id="name" type="text" name="name"><div id="nameError"></div></div>
+<div><label for="email">Email:</label><br><input id="email" type="email" name="email"><div id="emailError"></div></div>
 <label for="komentar">Request:
   
-</label><textarea rows="5" cols="20" name="komentar"></textarea>
+</label><textarea id="message" rows="5" cols="20" name="komentar"></textarea>
+<div id="messageError"></div>
 <input type="submit" value="Send">
 
     
@@ -134,5 +135,6 @@ loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       © 2024 Necke Tires.All rights reserved.
     </div>
   </footer>
+<script src="validacija.js"></script>
 </body>
 </html>

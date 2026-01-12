@@ -292,10 +292,51 @@ main{
 height: 800px;
     align-items: center;
 }
-body{
-    height: auto;
-    
-   
+body {
+  background: #bfbfbf;
+  font-family: Arial, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px;
+}
+
+.card {
+  background: #2f2f2f;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 160px;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card ul {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.card button {
+  margin-top: 15px;
+  background: green;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
 }
 form input[type="submit"]{
 border-radius: 15px;
